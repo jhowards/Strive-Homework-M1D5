@@ -125,7 +125,11 @@ console.log(upperFirst("strive school"))
 Write a function "cutString" to create a new string without the first and last character of a given string.
 */
 
-/* WRITE YOUR CODE HERE */
+const cutString = function(string){
+return string.slice(1, string.length - 1)
+}
+
+console.log(cutString("Strive School"))
 
 /* EXERCISE 10
 Write a function "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
