@@ -75,7 +75,6 @@ return userString
 }
 
 console.log(strivify("School"))
-console.log(15 % 3)
 
 /* EXERCISE 6
 Write a function "check3and7" which accepts a positive number and check if it is a multiple of 3 or a multiple of 7.
@@ -90,7 +89,7 @@ else if((num % 7) === 0 ){
 console.log("This number is a multiple of 7!")
 }
 else{
-    console.log("This number is not multiple of 3 or 7!")
+console.log("This number is not multiple of 3 or 7!")
 }
 }
 check3and7(4)
