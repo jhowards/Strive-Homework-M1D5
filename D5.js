@@ -38,11 +38,26 @@ Write a function "crazyDiff" that computes the absolute difference between a giv
 It should return triple their absolute difference if the given number is greater than 19.
 */
 
+const crazyDiff = function(num){
+if (num > 19){
+    console.log("The difference is " + (num - 19) * 3)
+}
+else{
+    console.log("The difference is " + (19 - num))
+}
+}
+
+crazyDiff(24)
+
 /* EXERCISE 4
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
 */
 
-/* WRITE YOUR CODE HERE */
+const boundary = function(n){
+    return (n >= 20 && n <= 100 || n === 400) ? true : false
+}
+console.log(boundary(400))
+
 
 /* EXERCISE 5
 Write a function "strivify" which accepts a string.
