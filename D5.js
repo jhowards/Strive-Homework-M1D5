@@ -137,10 +137,10 @@ Write a function "giveMeRandom" which accepts a number n and returns an array co
 const giveMeRandom = function(n){
     let randNums = []
     for (let i = 0; i < n; i++) {
-randNums = randNums + Math.floor(Math.random() * 10)
-randNums = randNums + " "
+randNums.push(Math.floor(Math.random() * 10))
 }
 return(randNums)
+
 }
 console.log(giveMeRandom(4))
 
